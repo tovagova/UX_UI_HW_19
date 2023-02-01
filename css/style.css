@@ -212,3 +212,19 @@ footer p {
 #footerGap {
     height: 110px;
 }
+
+@keyframes right-enter {
+    from {
+        transform: translate(1000px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.animEnter {
+    animation: right-enter 1s 1;
+}
